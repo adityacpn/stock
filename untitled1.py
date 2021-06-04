@@ -19,7 +19,8 @@ while True:
     current = quote['currentValue']
 #    print(quote)
 
-    #creating excel set
+    ''' 
+   #creating excel set
     def CreatingNewExcelFile():
         # writer = pd.ExcelWriter("YourBseExcelFile.xlsx",engine='xlsxwriter')
 
@@ -32,7 +33,7 @@ while True:
         # # Close the Pandas Excel writer and output the Excel file.
         # writer.save()
         # writer.close()
-
+    '''
     def AppendingToExistingExcelFile(message):
 
         # writer = pd.ExcelWriter('YourBseExcelFile.xlsx', engine='openpyxl')
